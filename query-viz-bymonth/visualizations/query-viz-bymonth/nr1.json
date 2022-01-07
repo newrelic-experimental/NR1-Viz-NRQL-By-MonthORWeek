@@ -1,0 +1,51 @@
+{
+    "schemaType": "VISUALIZATION",
+    "id": "query-viz-by-monthorweek",
+    "displayName": "NRQL-By-Month-OR-Week",
+    "description": "NRQL data over last n complete months or weeks",
+    "configuration": [
+        {
+            "name": "nrqlQueries",
+            "title": "NRQL Query",
+            "type": "collection",
+            "items": [
+                {
+                    "name": "accountId",
+                    "title": "Account ID",
+                    "description": "Account ID to be associated with the query",
+                    "type": "account-id"
+                },
+                {
+                    "name": "query",
+                    "title": "Query",
+                    "description": "NRQL query without time range!",
+                    "type": "nrql"
+                }
+            ]
+        },
+        {
+            "name": "lastnmonths",
+            "title": "Last n Months",
+            "description": "Fetch data for last n months",
+            "type": "string"
+        },
+        {
+            "name": "lastnweeks",
+            "title": "Last n Weeks",
+            "description": "Enter last n Weeks (if months is blank), For this widget start of the week is Monday.",
+            "type": "string"
+        },
+        {
+            "name": "lastxmonths",
+            "title": "Data for last x month(s) ago",
+            "description": "Fetch a month data for last x month(s) ago (only works if weeks and months are blank). Example: If current month is January, then 3 months ago will be October",
+            "type": "string"
+        },
+        {
+            "name": "partialdata",
+            "title": "Show Partial Week/Month (Yes)",
+            "description": "Type Yes to enable partial data retrieval.",
+            "type": "string"
+        }
+    ]
+}
