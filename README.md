@@ -46,15 +46,27 @@ NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling 
 
 ## App Installation <a id="install"></a>
 
-   - Clone the repo
+   - Clone/download the repo
    - run `npm install`
    - run `nr1 nerdpack:uuid -gf`
 
-Follow these instructions to [test locally](https://developer.newrelic.com/build-apps/publish-deploy/serve/).
+   Follow these instructions to [test locally](https://developer.newrelic.com/build-apps/publish-deploy/serve/).
 
-![Installed](Docs/Install.png)
+   ![Installed](Docs/Install.png)
 
-Follow these instructions to [publish](https://developer.newrelic.com/build-apps/publish-deploy/publish/) the app to New Relic, and [subscribe](https://developer.newrelic.com/build-apps/publish-deploy/subscribe/) your account to use it.
+   Follow these instructions to [publish](https://developer.newrelic.com/build-apps/publish-deploy/publish/) the app to New Relic, and [subscribe](https://developer.newrelic.com/build-apps/publish-deploy/subscribe/) your account to use it.
+
+   {nr1 nerdpack:publish}
+   
+   As shown below:
+   
+   ![Published](Docs/Publish.png)
+
+## Search in New Relic Apps <a id="search"></a>
+   Type QueryVizByMonthORWeek  or  QueryV  or  Month or ... to find the App.
+   
+   ![Search](Docs/Search.png)
+   
 
 ## Configuration  <a id="config"></a>
    1. Select an Account ID to be associated with the query. 
