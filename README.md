@@ -1,27 +1,64 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [Name of Project] [build badges go here when available]
+# [NR1-Viz-NRQL-By-MonthORWeek] 
 
->[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
+- [Introduction](#intro)
+- [Use Cases](#use-cases)
+- [Pre-requisites](#pre-reqs)
+- [App Installation](#install)
+- [Usage](#usage)
+  - [Accessing](#access)
+  - [First time set up](#set-up)
+  - [Search for a user](#search)
+  - [User summary view](#summary)
+  - [Timeline view](#timeline)
+- [Issues and Roadmap](#issues)
+- [Security](#security)
 
-## Installation
+# Introduction <a id="intro"></a>
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling user to pull data for complete month(s) or week(s) or an exact Month.
+
+- Retrieve data aggregated by months for last n Months
+- Retrieve data aggregated by months for last n Months and also include partial month data for the current month
+- Get data aggregated by weeks for last n Weeks
+- Get data aggregated by weeks for last n Weeks and also include partial week data for the current week
+- Retrieve data for a certain month relative to the current month
+
+![Session Timeline Screenshot](Docs/Intro.png)
+
+## Use Cases <a id="use-cases"></a>
+
+1. Reports to Compare Monthly data 
+   e.g. Is the first month of the last quarter was slow in terms of Page Views?
+
+2. Analyze Weekly Trends
+   e.g. What is our weekly pattern for Page Views or ...?
+
+3. Quarterly Month Comparision
+   e.g. Is the first month of the last quarter was slow in terms of Page Views or ...?
+
+4. Current Month/Week progress compared to past months/week 
+   e.g. How are we fairing/progressing in terms of Page Views or ...?
+
+## Pre-requisites <a id="pre-reqs"></a>
+
+   - Familarity with NRQL
+   - New Relic agents installed and reporting data to New Relic One Platform
+   - Ability to create Dashboards. 
+
+## App Installation <a id="install"></a>
+
+- Clone the repo
+- run `npm install`
+- run `nr1 nerdpack:uuid -gf`
+
+Follow these instructions to [test locally](https://developer.newrelic.com/build-apps/publish-deploy/serve/).
+
+Follow these instructions to [publish](https://developer.newrelic.com/build-apps/publish-deploy/publish/) the app to New Relic, and [subscribe](https://developer.newrelic.com/build-apps/publish-deploy/subscribe/) your account to use it.
 
 ## Getting Started
->[Simple steps to start working with the software similar to a "Hello World"]
 
-## Usage
->[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
-
-
-## Building
-
->[**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
-
-## Testing
-
->[**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
 
 ## Support
 
