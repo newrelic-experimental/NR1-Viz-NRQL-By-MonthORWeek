@@ -27,7 +27,7 @@ NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling 
 ## Use Cases <a id="use-cases"></a>
 
    1. Reports to Compare Monthly data 
-      e.g. In terms of Page Views,... what progress are we making on monthly basis?
+      e.g. In terms of Page Views or ... what progress are we making on monthly basis?
 
    2. Analyze Weekly Trends
       e.g. What is our weekly pattern for Page Views or ...?
@@ -51,6 +51,8 @@ NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling 
    - run `nr1 nerdpack:uuid -gf`
 
 Follow these instructions to [test locally](https://developer.newrelic.com/build-apps/publish-deploy/serve/).
+
+![Installed](Docs/Install.png)
 
 Follow these instructions to [publish](https://developer.newrelic.com/build-apps/publish-deploy/publish/) the app to New Relic, and [subscribe](https://developer.newrelic.com/build-apps/publish-deploy/subscribe/) your account to use it.
 
