@@ -23,7 +23,7 @@ NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling 
    - Get data aggregated by weeks for last n Weeks and also include partial week data for the current week
    - Retrieve data for a certain month relative to the current month
 
-   ![Introduction](Docs/Intro.png)
+   > ![Introduction](Docs/Intro.png)
 
 ## Use Cases <a id="use-cases"></a>
 
@@ -53,35 +53,35 @@ NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling 
 
    Follow these instructions to [test locally](https://developer.newrelic.com/build-apps/publish-deploy/serve/).
 
-   ![Installed](Docs/Install.png)
+   > ![Installed](Docs/Install.png)
 
    Follow these instructions to [publish](https://developer.newrelic.com/build-apps/publish-deploy/publish/) the app to New Relic, and [subscribe](https://developer.newrelic.com/build-apps/publish-deploy/subscribe/) your account to use it.
 
-   {nr1 nerdpack:publish}
+   > nr1 nerdpack:publish
    
    As shown below:
    
-   ![Published](Docs/Publish.png)
+   > ![Published](Docs/Publish.png)
 
 ## Search in New Relic Apps <a id="search"></a>
    Type QueryVizByMonthORWeek   or   QueryV   or   Month   or ... to find the App.
    
-   Step 1
-   ![New Relic Apps](Docs/Apps.png)
+   - Step 1 
+   > ![New Relic Apps](Docs/Apps.png)
    
-   Step 2
-   ![Search](Docs/Search.png)
+   - Step 2
+   > ![Search](Docs/Search.png)
    
-
 ## Configuration  <a id="config"></a>
    1. Select an Account ID to be associated with the query. 
    2. NRQL for the Account selected without time range.
    3. Specify the number of months to fetch data for, excluding current
    4. Enter last n Weeks (if months is blank), For this widget start of the week is Monday.
-   5. Fetch a month data for last x month(s) ago (only works if weeks and months are blank). Example: If current month is January, then 3 months ago will be October
-   6. Type Yes to enable partial data retrieval.
+   5. Fetch a month data for last x month(s) ago (only works if weeks and months are blank). 
+        Example: If current month is January, then 3 months ago will be October
+   7. Type Yes to enable partial data retrieval.
 
-   ![Configuration](Docs/Config.png)
+   > ![Configuration](Docs/Config.png)
 
 ## Support  <a id="support"></a>
 
