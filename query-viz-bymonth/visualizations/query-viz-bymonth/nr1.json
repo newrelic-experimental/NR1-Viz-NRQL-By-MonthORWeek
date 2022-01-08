@@ -1,6 +1,6 @@
 {
     "schemaType": "VISUALIZATION",
-    "id": "query-viz-by-monthorweek",
+    "id": "f02fe238-6442-49e9-ab91-819e33cdc0b7",
     "displayName": "NRQL-By-Month-OR-Week",
     "description": "NRQL data over last n complete months or weeks",
     "configuration": [
