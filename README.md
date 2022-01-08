@@ -1,12 +1,13 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [NR1-Viz-NRQL-By-MonthORWeek] 
+# [NR1-Viz-NRQL-By-MonthORWeek - Add Visualization to Dashboards] 
 
    - [Introduction](#intro)
    - [Use Cases](#use-cases)
    - [Pre-requisites](#pre-reqs)
    - [App Installation](#install)
    - [Configuration](#config)
+   - [Search App](#search)
    - [Support](#support)
    - [Issues and Roadmap](#issues)
    - [Security](#security)
@@ -63,8 +64,12 @@ NR1-Viz-NRQL-By-MonthORWeek enhances NRQL timeline facet capability by enabling 
    ![Published](Docs/Publish.png)
 
 ## Search in New Relic Apps <a id="search"></a>
-   Type QueryVizByMonthORWeek  or  QueryV  or  Month or ... to find the App.
+   Type QueryVizByMonthORWeek   or   QueryV   or   Month   or ... to find the App.
    
+   Step 1
+   ![New Relic Apps](Docs/Apps.png)
+   
+   Step 2
    ![Search](Docs/Search.png)
    
 
